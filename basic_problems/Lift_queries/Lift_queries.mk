@@ -5,15 +5,15 @@
 ## Debug
 ProjectName            :=Lift_queries
 ConfigurationName      :=Debug
-WorkspacePath          :="F:/Git n Github/Competitive Coding/basic_problems/basic_problems"
-ProjectPath            :="F:/Git n Github/Competitive Coding/basic_problems/basic_problems/Lift_queries"
+WorkspacePath          :="F:/Git n Github/Competitive Coding/basic_problems"
+ProjectPath            :="F:/Git n Github/Competitive Coding/basic_problems/Lift_queries"
 IntermediateDirectory  :=$(ConfigurationName)
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=saba sarwar
-Date                   :=21/04/2020
+Date                   :=23/04/2020
 CodeLitePath           :="C:/Program Files/CodeLite"
 LinkerName             :=C:/MinGW/bin/g++.exe
 SharedObjectLinkerName :=C:/MinGW/bin/g++.exe -shared -fPIC
@@ -95,7 +95,7 @@ PreBuild:
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/main.cpp$(DependSuffix) -MM main.cpp
-	$(CXX) $(IncludePCH) $(SourceSwitch) "F:/Git n Github/Competitive Coding/basic_problems/basic_problems/Lift_queries/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "F:/Git n Github/Competitive Coding/basic_problems/Lift_queries/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
 

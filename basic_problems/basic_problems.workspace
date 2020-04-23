@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="basic_problems" Database="" Version="10000">
-  <Project Name="zoos" Path="zoos/zoos.project" Active="No"/>
-  <Project Name="Lift_queries" Path="Lift_queries/Lift_queries.project" Active="Yes"/>
+  <Project Name="Zoos" Path="zoos/zoos.project" Active="No"/>
+  <Project Name="Lift_Queries" Path="Lift_queries/Lift_queries.project" Active="No"/>
+  <Project Name="Bricks_Game" Path="Bricks_Game/Bricks_Game.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
-      <Project Name="zoos" ConfigName="Debug"/>
-      <Project Name="Lift_queries" ConfigName="Debug"/>
+      <Project Name="Zoos" ConfigName="Debug"/>
+      <Project Name="Lift_Queries" ConfigName="Debug"/>
+      <Project Name="Bricks_Game" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
-      <Project Name="zoos" ConfigName="Release"/>
-      <Project Name="Lift_queries" ConfigName="Release"/>
+      <Project Name="Zoos" ConfigName="Release"/>
+      <Project Name="Lift_Queries" ConfigName="Release"/>
+      <Project Name="Bricks_Game" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
