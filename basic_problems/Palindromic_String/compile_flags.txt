@@ -1,0 +1,9 @@
+-Ic:\MinGW\lib\gcc\mingw32\9.2.0\include\c++
+-Ic:\MinGW\lib\gcc\mingw32\9.2.0\include\c++\mingw32
+-Ic:\MinGW\lib\gcc\mingw32\9.2.0\include\c++\backward
+-Ic:\MinGW\lib\gcc\mingw32\9.2.0\include
+-Ic:\MinGW\include
+-Ic:\MinGW\lib\gcc\mingw32\9.2.0\include-fixed
+-I"F:\Git n Github\Competitive Coding\basic_problems\Palindromic_String"
+-target
+i686-pc-windows-gnu

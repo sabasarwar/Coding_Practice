@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session Name="F:\Git n Github\Competitive Coding\basic_problems\basic_problems\basic_problems.workspace">
+<Session Name="F:\Git n Github\Competitive Coding\basic_problems\basic_problems.workspace">
   <int Value="0" Name="m_selectedTab"/>
-  <wxString Value="F:\Git n Github\Competitive Coding\basic_problems\basic_problems\basic_problems.workspace" Name="m_workspaceName"/>
-  <TabInfoArray Name="TabInfoArray">
-    <TabInfo>
-      <wxString Value="F:\Git n Github\Competitive Coding\basic_problems\basic_problems\Lift_queries\main.cpp" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="6" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-  </TabInfoArray>
+  <wxString Value="F:\Git n Github\Competitive Coding\basic_problems\basic_problems.workspace" Name="m_workspaceName"/>
+  <TabInfoArray Name="TabInfoArray"/>
   <SerializedObject Name="m_breakpoints">
     <long Value="0" Name="Count"/>
   </SerializedObject>

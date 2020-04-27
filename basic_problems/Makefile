@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ Bricks_Game - Debug ]----------"
-	@cd "Bricks_Game" && "$(MAKE)" -f  "Bricks_Game.mk"
+	@echo "----------Building project:[ Palindromic_String - Debug ]----------"
+	@cd "Palindromic_String" && "$(MAKE)" -f  "Palindromic_String.mk"
 clean:
-	@echo "----------Cleaning project:[ Bricks_Game - Debug ]----------"
-	@cd "Bricks_Game" && "$(MAKE)" -f  "Bricks_Game.mk" clean
+	@echo "----------Cleaning project:[ Palindromic_String - Debug ]----------"
+	@cd "Palindromic_String" && "$(MAKE)" -f  "Palindromic_String.mk" clean
