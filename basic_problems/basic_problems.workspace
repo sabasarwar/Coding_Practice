@@ -4,7 +4,8 @@
   <Project Name="Lift_Queries" Path="Lift_queries/Lift_queries.project" Active="No"/>
   <Project Name="Bricks_Game" Path="Bricks_Game/Bricks_Game.project" Active="No"/>
   <Project Name="Factorial" Path="Factorial/Factorial.project" Active="No"/>
-  <Project Name="Palindromic_String" Path="Palindromic_String/Palindromic_String.project" Active="Yes"/>
+  <Project Name="Palindromic_String" Path="Palindromic_String/Palindromic_String.project" Active="No"/>
+  <Project Name="Split_Houses" Path="Split_Houses/Split_Houses.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -13,6 +14,7 @@
       <Project Name="Bricks_Game" ConfigName="Debug"/>
       <Project Name="Factorial" ConfigName="Debug"/>
       <Project Name="Palindromic_String" ConfigName="Debug"/>
+      <Project Name="Split_Houses" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -21,6 +23,7 @@
       <Project Name="Bricks_Game" ConfigName="Release"/>
       <Project Name="Factorial" ConfigName="Release"/>
       <Project Name="Palindromic_String" ConfigName="Release"/>
+      <Project Name="Split_Houses" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
