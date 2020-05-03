@@ -1,9 +1,0 @@
-/Debug
-*.workspace
-*.mk
-*.project
-*.txt
-*.cpp.o
-*.cpp.d
-*.session
-*.codelite
