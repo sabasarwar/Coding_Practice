@@ -1,8 +1,9 @@
-/Debug
+
 *.workspace
 *.mk
 *.project
 *.txt
+*.tags
 *.cpp.o
 *.cpp.d
 *.session
