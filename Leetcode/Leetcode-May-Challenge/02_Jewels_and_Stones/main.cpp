@@ -47,3 +47,5 @@ class Solution
         return count;
     }
 };
+
+/* Solution in O(n) */
