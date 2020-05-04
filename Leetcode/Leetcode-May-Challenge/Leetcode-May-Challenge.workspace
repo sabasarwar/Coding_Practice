@@ -2,16 +2,19 @@
 <CodeLite_Workspace Name="Leetcode-May-Challenge" Database="" Version="10000">
   <Project Name="02_Jewels_and_Stones" Path="02_Jewels_and_Stones/02_Jewels_and_Stones.project" Active="No"/>
   <Project Name="03_Ransom_Note" Path="03_Ransom_Note/03_Ransom_Note.project" Active="Yes"/>
+  <Project Name="04_Number_Complement" Path="04_Number_Complement/04_Number_Complement.project"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="02_Jewels_and_Stones" ConfigName="Debug"/>
       <Project Name="03_Ransom_Note" ConfigName="Debug"/>
+      <Project Name="04_Number_Complement" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="02_Jewels_and_Stones" ConfigName="Release"/>
       <Project Name="03_Ransom_Note" ConfigName="Release"/>
+      <Project Name="04_Number_Complement" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
