@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="Leetcode-May-Challenge" Database="" Version="10000">
-  <Project Name="02_Jewels_and_Stones" Path="02_Jewels_and_Stones/02_Jewels_and_Stones.project" Active="Yes"/>
+  <Project Name="02_Jewels_and_Stones" Path="02_Jewels_and_Stones/02_Jewels_and_Stones.project" Active="No"/>
+  <Project Name="03_Ransom_Note" Path="03_Ransom_Note/03_Ransom_Note.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="02_Jewels_and_Stones" ConfigName="Debug"/>
+      <Project Name="03_Ransom_Note" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="02_Jewels_and_Stones" ConfigName="Release"/>
+      <Project Name="03_Ransom_Note" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
