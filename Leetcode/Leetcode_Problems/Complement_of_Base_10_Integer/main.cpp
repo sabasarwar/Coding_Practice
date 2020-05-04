@@ -26,7 +26,7 @@ public:
         if(N==0)
             return 1;
         int bits=log2(N)+1;
-        int mask=(unsigned)(pow(2,bits))-1;
+        int mask=(unsigned)(pow(2,bits))-1; // mask=(unsigned)(1<<bits)-1;
         return N^mask; //XOR operation
     }
 };
