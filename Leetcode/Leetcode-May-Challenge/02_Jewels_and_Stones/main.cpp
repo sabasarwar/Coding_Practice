@@ -49,3 +49,23 @@ class Solution
 };
 
 /* Solution in O(n) */
+
+int numJewelsInStones(string J, string S) 
+{
+        
+        if(J.length() == 0 || S.length() == 0)
+            return 0;
+        
+        unordered_set<char> jewel;
+        int result = 0;
+        for(char ch: J)
+            jewel.insert(ch);
+        
+        for(char ch: S)
+        {
+             if(jewel.find(ch) != jewel.end())
+                result++;
+        }
+        
+        return result;
+    }
