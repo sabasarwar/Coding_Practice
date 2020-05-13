@@ -64,10 +64,10 @@ public:
             q.pop();
             int r = p.first;
             int c = p.second;
-            int color = image[i][j];
+            int color = image[r][c];
             image[r][c] = newColor;
         
-            if(i-1>=0)
+            if(r-1>=0)
             {
                 if(image[r-1][c] != newColor and image[r-1][c] == color)
                 {
