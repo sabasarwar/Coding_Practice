@@ -34,7 +34,7 @@ int main()
     int n= sizeof(arr)/sizeof(arr[0]);
     
     leftRotate(arr,n,4);
-//    leftRotate(arr,n,3);
+//  leftRotate(arr,n,3);
     print(arr,n);
     return 0;
 }
