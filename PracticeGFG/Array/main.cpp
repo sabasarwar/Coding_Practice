@@ -30,11 +30,13 @@ void print(int arr[], int n)
 
 int main()
 {
+    //Driver code to test functions
     int arr[]={1,2,3,4,5,6,7,8,9,10,11,12,13};
     int n= sizeof(arr)/sizeof(arr[0]);
     
     leftRotate(arr,n,4);
-//  leftRotate(arr,n,3);
+    //leftRotate(arr,n,3);
+    //leftRotate(arr,n,5);
     print(arr,n);
     return 0;
 }
