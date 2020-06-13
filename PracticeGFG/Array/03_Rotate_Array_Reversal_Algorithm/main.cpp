@@ -64,7 +64,6 @@ int main()
     
     cout<<"\nLeft Rotated Array upto d=3 places : "<<endl;
     print(arr,n);
-    
     cout<<endl;
     return 0;
 }
