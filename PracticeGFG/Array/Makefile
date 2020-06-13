@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ 03_Rotate_Array_Reversal_Algorithm - Debug ]----------"
-	@cd "03_Rotate_Array_Reversal_Algorithm" && "$(MAKE)" -f  "03_Rotate_Array_Reversal_Algorithm.mk"
+	@echo "----------Building project:[ 04_Rearrange_an_array - Debug ]----------"
+	@cd "04_Rearrange_an_array" && "$(MAKE)" -f  "04_Rearrange_an_array.mk"
 clean:
-	@echo "----------Cleaning project:[ 03_Rotate_Array_Reversal_Algorithm - Debug ]----------"
-	@cd "03_Rotate_Array_Reversal_Algorithm" && "$(MAKE)" -f  "03_Rotate_Array_Reversal_Algorithm.mk" clean
+	@echo "----------Cleaning project:[ 04_Rearrange_an_array - Debug ]----------"
+	@cd "04_Rearrange_an_array" && "$(MAKE)" -f  "04_Rearrange_an_array.mk" clean
