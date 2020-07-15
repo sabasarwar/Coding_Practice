@@ -37,3 +37,29 @@ public:
         return res;
     }
 };
+
+//Solution 02
+
+
+class Solution {
+public:
+    int iseven(int a)
+    {
+        int c=0;
+        while(a!=0){
+            a=a/10;
+            c++;
+        }
+        if(c%2==0)
+            return 1;
+        else return 0;
+        
+    }
+    int findNumbers(vector<int>& nums) {
+        int c=0,i;
+        for(i=0;i<nums.size();i++)
+            if(iseven(nums[i]))
+                c++;
+        return c;
+    }
+};
